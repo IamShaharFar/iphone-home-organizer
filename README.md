@@ -6,11 +6,23 @@
 
 **Requires Computer Use.** To apply changes, your agent must already be authorized to **see and control the native iPhone Mirroring window on your Mac**, including supported drag gestures. Installing this skill does not add GUI tools, grant permissions, or make a CLI desktop-capable.
 
-An agent-neutral [Agent Skills](https://agentskills.io/specification) workflow: **ask → inspect → propose an exact layout → get explicit approval → move in small batches → verify**.
+An agent-neutral [Agent Skills](https://agentskills.io/specification) workflow: **ask and clarify → inspect → propose an exact layout → get explicit approval → move in small batches → verify**.
 
 **Prototype, not device-tested.** The author reports doing a similar task with Codex, Computer Use, and Apple's iPhone Mirroring. This reusable package was prepared without that Mac or its precise tool/OS configuration. No listed agent has been end-to-end tested with this package.
 
-[עברית — התחלה מהירה](docs/START-HERE.he.md)
+## Start here: the visual guide
+
+**Less reading, six steps:** [Open the visual quick start](docs/START-HERE.md).
+
+[![Six-step quick start: check Computer Use, install the skill, open iPhone Mirroring, share your layout and answer follow-up questions, approve the exact plan, then verify the result.](docs/quick-start.png)](docs/START-HERE.md)
+
+[Full-size image](docs/quick-start.png) · [Accessible text and copyable commands](docs/START-HERE.md)
+
+## A good layout starts with understanding you
+
+This is a conversation, not a one-shot questionnaire. The agent asks short follow-ups until it understands your priorities, must-keep items, folder preferences, current layout, and important tradeoffs. It should not guess missing details that would change the plan, and should summarize your priorities back before proposing the exact layout.
+
+**For better results, share privacy-reviewed screenshots of all Home Screen pages**, plus relevant folder pages and widgets. Redact sensitive information and notifications. If the agent can inspect the same views live, extra attachments are unnecessary. Without either, use an app list and label unknowns rather than inventing a layout. Screenshots are visual references, **not restorable backups**.
 
 ## Compatibility: instructions are not device control
 
@@ -68,8 +80,9 @@ Only the `codex` target reads `CODEX_HOME`; shared and other targets ignore it. 
 ```text
 Read and follow the iphone-home-organizer skill to help organize my iPhone
 Home Screen through Apple's iPhone Mirroring on my Mac. First check your
-actual Computer Use capabilities. Ask briefly about my priority apps and
-folder preferences. Keep my Dock and widgets unchanged by default. Show the
+actual Computer Use capabilities. Inspect my pages live or use privacy-reviewed screenshots. Ask short
+follow-ups until you understand my priorities, layout, and folder preferences.
+Do not guess important missing details. Keep my Dock and widgets unchanged by default. Show the
 exact change list and wait for my explicit approval before applying it.
 If you cannot control this Mac and the mirrored iPhone, provide a plan and
 manual steps only. Do not claim the plan was applied.
@@ -78,7 +91,7 @@ manual steps only. Do not claim the plan was applied.
 ## Safety and privacy
 
 - Preserves the Dock and existing widgets by default; asks about protected items and preferences.
-- Inventories visible pages, then proposes exact moves and folder changes before seeking explicit approval.
+- Clarifies preferences iteratively, inventories visible pages or supplied screenshots, then proposes exact moves and folder changes before seeking explicit approval.
 - Re-observes after each drag and stops on uncertainty, rather than repeating blind gestures.
 - Does not delete apps, change app data, edit App Library's automatic categories, or change Focus, Lock Screen, accounts, authentication, or other device settings.
 - Screenshots are visual records, **not restorable backups**. Full restoration is not guaranteed.

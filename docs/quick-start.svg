@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="1730" viewBox="0 0 720 1730" role="img" aria-labelledby="title desc">
+<title id="title">iPhone Home Organizer: six-step visual quick start</title>
+<desc id="desc">Check native Computer Use, install the skill, open iPhone Mirroring, share your layout and answer follow-up questions, approve the exact layout, then verify every changed page. This is a workflow illustration, not a screenshot. This prototype is not device-tested.</desc>
+<rect width="720" height="1730" fill="#eef3f6"/>
+<g font-family="DejaVu Sans, Arial, sans-serif">
+<text x="40" y="55" fill="#227568" font-size="20" font-weight="bold" letter-spacing="2">IPHONE HOME ORGANIZER</text>
+<text x="40" y="106" fill="#112d3b" font-size="40" font-weight="bold">Less clutter. Six steps.</text>
+<text x="40" y="146" fill="#435b67" font-size="23">Your Mac + iPhone Mirroring + a capable agent</text>
+
+<rect x="32" y="180" width="656" height="204" rx="20" fill="#ffffff" stroke="#d9e4e8"/>
+<rect x="52" y="202" width="52" height="37" rx="10" fill="#dff3ec"/>
+<text x="78" y="229" text-anchor="middle" font-size="25" font-weight="bold" fill="#176a58">1</text>
+<text x="120" y="228" font-size="20" font-weight="bold" letter-spacing="2" fill="#176a58">CHECK</text>
+<g transform="translate(604 199) scale(.8)" fill="none" stroke="#227568" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M3 28 Q27 0 51 28 Q27 56 3 28Z"/><circle cx="27" cy="28" r="8"/></g>
+<text x="52" y="276" font-size="27" font-weight="bold" fill="#112d3b">Can your agent control the Mac?</text>
+<text x="52" y="317" font-size="24" fill="#435b67">Native Computer Use is required.</text>
+<text x="52" y="350" font-size="24" fill="#435b67">No control? Make a plan only.</text>
+<rect x="32" y="405" width="656" height="204" rx="20" fill="#ffffff" stroke="#d9e4e8"/>
+<rect x="52" y="427" width="52" height="37" rx="10" fill="#dff3ec"/>
+<text x="78" y="454" text-anchor="middle" font-size="25" font-weight="bold" fill="#176a58">2</text>
+<text x="120" y="453" font-size="20" font-weight="bold" letter-spacing="2" fill="#176a58">INSTALL</text>
+<g transform="translate(604 424) scale(.8)" fill="none" stroke="#227568" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M27 3V35M15 24L27 36L39 24M6 37V49H48V37"/></g>
+<text x="52" y="501" font-size="27" font-weight="bold" fill="#112d3b">Add the skill once.</text>
+<text x="52" y="542" font-size="24" fill="#435b67">Choose your agent in the guide below.</text>
+<text x="52" y="575" font-size="24" fill="#435b67">The installer copies instructions only.</text>
+<rect x="32" y="630" width="656" height="204" rx="20" fill="#ffffff" stroke="#d9e4e8"/>
+<rect x="52" y="652" width="52" height="37" rx="10" fill="#dff3ec"/>
+<text x="78" y="679" text-anchor="middle" font-size="25" font-weight="bold" fill="#176a58">3</text>
+<text x="120" y="678" font-size="20" font-weight="bold" letter-spacing="2" fill="#176a58">MIRROR</text>
+<g transform="translate(604 649) scale(.8)" fill="none" stroke="#227568" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><rect x="11" y="2" width="32" height="50" rx="7"/><path d="M23 8H31M23 45H31"/></g>
+<text x="52" y="726" font-size="27" font-weight="bold" fill="#112d3b">Open iPhone Mirroring on your Mac.</text>
+<text x="52" y="767" font-size="24" fill="#435b67">Check that it is your iPhone.</text>
+<text x="52" y="800" font-size="24" fill="#435b67">Complete sign-in yourself.</text>
+<rect x="32" y="855" width="656" height="204" rx="20" fill="#ffffff" stroke="#d9e4e8"/>
+<rect x="52" y="877" width="52" height="37" rx="10" fill="#dff3ec"/>
+<text x="78" y="904" text-anchor="middle" font-size="25" font-weight="bold" fill="#176a58">4</text>
+<text x="120" y="903" font-size="20" font-weight="bold" letter-spacing="2" fill="#176a58">PERSONALIZE</text>
+<g transform="translate(604 874) scale(.8)" fill="none" stroke="#227568" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 5H49V38H24L13 49V38H5Z"/><path d="M15 16H39M15 25H32"/></g>
+<text x="52" y="951" font-size="27" font-weight="bold" fill="#112d3b">Show your layout. Talk it through.</text>
+<text x="52" y="992" font-size="24" fill="#435b67">Share screenshots, or show pages live.</text>
+<text x="52" y="1025" font-size="24" fill="#435b67">Answer follow-ups until the plan fits.</text>
+<rect x="32" y="1080" width="656" height="204" rx="20" fill="#ffffff" stroke="#d9e4e8"/>
+<rect x="52" y="1102" width="52" height="37" rx="10" fill="#dff3ec"/>
+<text x="78" y="1129" text-anchor="middle" font-size="25" font-weight="bold" fill="#176a58">5</text>
+<text x="120" y="1128" font-size="20" font-weight="bold" letter-spacing="2" fill="#176a58">APPROVE</text>
+<g transform="translate(604 1099) scale(.8)" fill="none" stroke="#227568" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="46" height="46" rx="10"/><path d="M14 27L23 36L41 17"/></g>
+<text x="52" y="1176" font-size="27" font-weight="bold" fill="#112d3b">Review the exact layout first.</text>
+<text x="52" y="1217" font-size="24" fill="#435b67">Check every move and folder name.</text>
+<text x="52" y="1250" font-size="24" fill="#435b67">Nothing moves until you approve.</text>
+<rect x="32" y="1305" width="656" height="204" rx="20" fill="#ffffff" stroke="#d9e4e8"/>
+<rect x="52" y="1327" width="52" height="37" rx="10" fill="#dff3ec"/>
+<text x="78" y="1354" text-anchor="middle" font-size="25" font-weight="bold" fill="#176a58">6</text>
+<text x="120" y="1353" font-size="20" font-weight="bold" letter-spacing="2" fill="#176a58">VERIFY</text>
+<g transform="translate(604 1324) scale(.8)" fill="none" stroke="#227568" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="5" width="17" height="17" rx="4"/><rect x="5" y="32" width="17" height="17" rx="4"/><rect x="32" y="5" width="17" height="17" rx="4"/><rect x="32" y="32" width="17" height="17" rx="4"/></g>
+<text x="52" y="1401" font-size="27" font-weight="bold" fill="#112d3b">Check every changed page.</text>
+<text x="52" y="1442" font-size="24" fill="#435b67">Move a little. Recheck. Repeat.</text>
+<text x="52" y="1475" font-size="24" fill="#435b67">Uncertain result? Stop and inspect.</text>
+<rect x="32" y="1540" width="656" height="148" rx="18" fill="#112d3b"/>
+<text x="52" y="1579" font-size="24" font-weight="bold" fill="#ffffff">The skill is instructions, not Computer Use.</text>
+<text x="52" y="1614" font-size="22" fill="#d6e7eb">Prototype · Not device-tested · No app deletion</text>
+<text x="52" y="1649" font-size="22" fill="#d6e7eb">Illustration only. Copyable steps in the guide.</text>
+</g></svg>

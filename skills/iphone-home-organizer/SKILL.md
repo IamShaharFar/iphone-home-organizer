@@ -20,17 +20,27 @@ Build a personalized, approved Home Screen layout without deleting apps or chang
 - Consult [Apple's current requirements and availability](https://support.apple.com/en-us/120421) when troubleshooting compatibility. At drafting time: Apple silicon or T2 Mac, macOS 15+, iOS 18+ with a passcode, the same Apple Account with two-factor authentication, Wi-Fi and Bluetooth enabled, and a nearby locked iPhone; other restrictions and regional availability apply. Do not install updates or change system settings as part of organizing.
 - If the Mac is off, mirroring is unavailable, or required control is unsupported, clearly select **planning only**. Use a user-provided app list or optional privacy-reviewed screenshots; mark missing information unknown. Do not imply a proposed layout was applied or keep retrying an unavailable connection.
 
-## 2. Personalize briefly
+## 2. Personalize through short, iterative questions
 
-Ask only what is not already known, ideally in one short message:
+Start with a short, relevant set of questions. This is not a fixed questionnaire or a one-round limit: ask focused follow-ups until you understand the user's priorities, current layout, constraints, and tradeoffs well enough to recommend a tailored plan. Reuse answers already given and avoid repetition. Do not guess important missing answers to finish faster.
+
+Useful starting questions:
 
 1. Which apps deserve immediate access, and what should never move?
 2. Should the Dock stay exactly as it is? Which widgets must remain?
 3. Prefer a few themed folders or mostly visible icons? What folder language/names and approximate page count feel right?
 
+After each answer, resolve remaining material ambiguities: frequently used versus occasional apps, desired first-page access, folder grouping/names, protected positions, widget needs, page-count tradeoffs, and visual simplicity versus quick access. Explain a tradeoff briefly when it helps the user choose. Stop asking when the relevant choices are clear enough, not after an arbitrary number of rounds; minor reversible details can be proposed explicitly for approval rather than over-questioned.
+
+Recommend privacy-reviewed screenshots of **all Home Screen pages**, plus relevant folder pages and widgets, as useful context for a higher-quality plan. Ask the user to redact sensitive information and notifications. If fresh live inspection already covers those views, do not require redundant screenshots. If neither is available, work from an app list and questions, label gaps as unknown, and keep recommendations conditional. Screenshots are visual references, not backups or proof of the current state at execution time.
+
+Before proposing the exact layout, summarize the priorities and protected items back to the user and resolve any correction. A preference summary is not approval to apply changes.
+
 Use the user's priorities, not assumptions about usage based on app names. Default to preserving the Dock, existing widgets, familiar first-page anchors, and folder names until the user chooses otherwise. Do not inspect app contents or Screen Time to guess preferences.
 
 ## 3. Inventory before editing
+
+Use user-provided screenshots for planning when available, noting their date or potential staleness and any cropped or missing views. Before execution, reconcile with fresh live observations. Never infer unseen pages or folder contents from a partial screenshot set.
 
 With permission to inspect, navigate the visible Home Screen pages without entering edit mode. Record each page's apps, folders, existing widget footprints, empty spaces, and the Dock. Identify positions by page and observed row/column or clear visual anchors; account for interface language, icon size, and widget spans rather than assuming a fixed grid. Open only folders needed for the agreed scope, not apps, and record their internal pages when relevant.
 
