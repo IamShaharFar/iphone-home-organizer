@@ -1,0 +1,5 @@
+.DS_Store
+*.zip
+# Never publish local run records, screenshots, or private inventories.
+private/
+runs/
