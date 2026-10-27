@@ -1,19 +1,21 @@
 ---
 name: iphone-home-organizer
-description: Plan and, after explicit approval, organize an iPhone Home Screen through Apple's iPhone Mirroring on a Mac when the current Codex environment already has suitable Computer Use tools. Use for arranging Home Screen apps, folders, and existing widgets; otherwise provide a planning-only workflow.
+description: Plan and, after explicit approval, organize an iPhone Home Screen through Apple's iPhone Mirroring on a Mac when the current agent environment already has suitable Computer Use tools. Use for arranging Home Screen apps, folders, and existing widgets; otherwise provide a planning-only workflow.
 ---
 
 # iPhone Home Organizer
 
-**Requires Computer Use:** Applying changes needs an already authorized Codex environment that can see and control the native Mac iPhone Mirroring window, including supported drag gestures. This skill does not provide or enable Computer Use; an ordinary CLI installation alone is insufficient. If that capability is absent, use planning only.
+**Requires Computer Use:** Applying changes needs an already authorized agent environment that can see and control the native Mac iPhone Mirroring window, including supported drag gestures. This skill does not provide or enable Computer Use; an ordinary CLI installation alone is insufficient. If that capability is absent, use planning only.
 
 Build a personalized, approved Home Screen layout without deleting apps or changing their data or device settings. Respond in the user's language.
+
+**Format:** A portable Agent Skills `SKILL.md`, with no vendor-specific tools or required metadata. Skill-file discovery is separate from Computer Use capability. Follow the current host's documented invocation and tool interfaces; if it cannot discover skills, it may read these instructions directly.
 
 **Status:** Portable prototype. This package has not been tested on a device. It contains instructions, not a GUI-control driver. A user's report that a similar workflow worked is not verification of this package or another person's setup.
 
 ## 1. Establish capability and scope
 
-- Inspect the tools actually available in the current environment and follow their documentation. Applying a layout requires the ability to observe and control the native Mac iPhone Mirroring window, including supported click-and-hold/drag gestures and fresh observations afterward. A browser-only tool, shell, or generic Codex CLI installation does not establish that capability. Do not invent tool names, commands, endpoints, or hidden iOS configuration APIs.
+- Inspect the tools actually available in the current environment and follow their documentation. Applying a layout requires the ability to observe and control the native Mac iPhone Mirroring window, including supported click-and-hold/drag gestures and fresh observations afterward. A browser-only tool, shell, or generic agent CLI installation does not establish that capability. Do not invent tool names, commands, endpoints, or hidden iOS configuration APIs.
 - Ask the user to open Apple's **iPhone Mirroring**, complete setup/authentication themselves, and confirm the intended iPhone. Never ask for or enter passwords, passcodes, or authentication codes. Do not change authentication choices, permissions, accounts, or security settings to make this work.
 - Consult [Apple's current requirements and availability](https://support.apple.com/en-us/120421) when troubleshooting compatibility. At drafting time: Apple silicon or T2 Mac, macOS 15+, iOS 18+ with a passcode, the same Apple Account with two-factor authentication, Wi-Fi and Bluetooth enabled, and a nearby locked iPhone; other restrictions and regional availability apply. Do not install updates or change system settings as part of organizing.
 - If the Mac is off, mirroring is unavailable, or required control is unsupported, clearly select **planning only**. Use a user-provided app list or optional privacy-reviewed screenshots; mark missing information unknown. Do not imply a proposed layout was applied or keep retrying an unavailable connection.
@@ -54,7 +56,7 @@ Ask explicitly: **“Apply this exact layout?”** A general request to organize
 Only after explicit approval:
 
 1. Obtain a fresh view of the intended window and starting layout. Confirm it still matches the approved baseline.
-2. Enter Home Screen editing with the available documented UI controls. Consult Apple's [moving apps and widgets](https://support.apple.com/guide/iphone/move-apps-and-widgets-on-the-home-screen-iphd2fc8ce30/ios) and [folders](https://support.apple.com/guide/iphone/organize-your-apps-in-folders-iph822ece7dd/ios) instructions if needed; they describe user interactions, not a Codex automation API.
+2. Enter Home Screen editing with the available documented UI controls. Consult Apple's [moving apps and widgets](https://support.apple.com/guide/iphone/move-apps-and-widgets-on-the-home-screen-iphd2fc8ce30/ios) and [folders](https://support.apple.com/guide/iphone/organize-your-apps-in-folders-iph822ece7dd/ios) instructions if needed; they describe user interactions, not an agent automation API.
 3. Make one move at a time within a small independently verifiable batch. Use coordinates or targets grounded in the current observation, not remembered screen geometry. Re-observe after every drag/drop and before the next gesture. Check neighboring icons and page reflow as well as the moved item. Prefer one-icon drags over multi-icon operations.
 4. Record each verified change against the ledger. Check the full affected page/folder and protected Dock/widgets at batch boundaries. Continue only while the result matches the approved plan.
 
